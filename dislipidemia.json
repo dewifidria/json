@@ -1,0 +1,92 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"dislipidemia"},
+{"type":"table","name":"diagnosis","database":"dislipidemia","data":
+[
+{"id_diagnosis":"D1","hasil_diagnosis":"Positif","saran":"Anda disarankan melakukan tes darah untuk mengetahui profil lipid yang perlu diperbaiki","bobot":"0.6633"},
+{"id_diagnosis":"D2","hasil_diagnosis":"Negatif","saran":"Anda tidak disarankan melakukan tes darah","bobot":"0.3367"}
+]
+}
+,{"type":"table","name":"kategori","database":"dislipidemia","data":
+[
+{"id_kategori":"K1","id_kondisi":"A1","nama_kategori":"Laki-laki"},
+{"id_kategori":"K10","id_kondisi":"A5","nama_kategori":"Tidak Ada Penyakit Diabetes Mellitus"},
+{"id_kategori":"K11","id_kondisi":"A6","nama_kategori":"Ada Penyakit Ginjal"},
+{"id_kategori":"K12","id_kondisi":"A6","nama_kategori":"Tidak Ada Penyakit Ginjal"},
+{"id_kategori":"K13","id_kondisi":"A7","nama_kategori":"Ada Penyakit Stroke"},
+{"id_kategori":"K14","id_kondisi":"A7","nama_kategori":"Tidak Ada Penyakit Stroke"},
+{"id_kategori":"K15","id_kondisi":"A8","nama_kategori":"Iya Sakit Kepala"},
+{"id_kategori":"K16","id_kondisi":"A8","nama_kategori":"Tidak Sakit Kepala"},
+{"id_kategori":"K17","id_kondisi":"A9","nama_kategori":"Iya Lemas"},
+{"id_kategori":"K18","id_kondisi":"A9","nama_kategori":"Tidak Lemas"},
+{"id_kategori":"K19","id_kondisi":"A10","nama_kategori":"Iya Nyeri Leher"},
+{"id_kategori":"K2","id_kondisi":"A1","nama_kategori":"Perempuan"},
+{"id_kategori":"K20","id_kondisi":"A10","nama_kategori":"Tidak Nyeri Leher"},
+{"id_kategori":"K21","id_kondisi":"A11","nama_kategori":"Iya Badan Kaku\/Kesemutan"},
+{"id_kategori":"K22","id_kondisi":"A11","nama_kategori":"Tidak Badan Kaku\/Kesemutan"},
+{"id_kategori":"K23","id_kondisi":"A12","nama_kategori":"Iya Mual Muntah"},
+{"id_kategori":"K24","id_kondisi":"A12","nama_kategori":"Tidak Mual Muntah"},
+{"id_kategori":"K25","id_kondisi":"A13","nama_kategori":"Iya Sesak"},
+{"id_kategori":"K26","id_kondisi":"A13","nama_kategori":"Tidak Sesak"},
+{"id_kategori":"K27","id_kondisi":"A14","nama_kategori":"Iya Nyeri Dada"},
+{"id_kategori":"K28","id_kondisi":"A14","nama_kategori":"Tidak Nyeri Dada"},
+{"id_kategori":"K3","id_kondisi":"A2","nama_kategori":"Usia >= 45 tahun"},
+{"id_kategori":"K4","id_kondisi":"A2","nama_kategori":"Usia < 45 tahun"},
+{"id_kategori":"K5","id_kondisi":"A3","nama_kategori":"Ada Hipertensi"},
+{"id_kategori":"K6","id_kondisi":"A3","nama_kategori":"Tidak Ada Hipertensi"},
+{"id_kategori":"K7","id_kondisi":"A4","nama_kategori":"Ada Penyakit Jantung"},
+{"id_kategori":"K8","id_kondisi":"A4","nama_kategori":"Tidak Ada Penyakit Jantung"},
+{"id_kategori":"K9","id_kondisi":"A5","nama_kategori":"Ada Penyakit Diabetes Mellitus"}
+]
+}
+,{"type":"table","name":"kondisi","database":"dislipidemia","data":
+[
+{"id_kondisi":"A1","nama_kondisi":"Jenis Kelamin"},
+{"id_kondisi":"A10","nama_kondisi":"Nyeri Leher"},
+{"id_kondisi":"A11","nama_kondisi":"Badan Kaku\/Kesemutan"},
+{"id_kondisi":"A12","nama_kondisi":"Mual Muntah"},
+{"id_kondisi":"A13","nama_kondisi":"Sesak"},
+{"id_kondisi":"A14","nama_kondisi":"Nyeri Dada"},
+{"id_kondisi":"A2","nama_kondisi":"Usia"},
+{"id_kondisi":"A3","nama_kondisi":"Hipertensi"},
+{"id_kondisi":"A4","nama_kondisi":"Jantung"},
+{"id_kondisi":"A5","nama_kondisi":"Diabetes Mellitus"},
+{"id_kondisi":"A6","nama_kondisi":"Ginjal"},
+{"id_kondisi":"A7","nama_kondisi":"Stroke"},
+{"id_kondisi":"A8","nama_kondisi":"Sakit Kepala"},
+{"id_kondisi":"A9","nama_kondisi":"Lemas"}
+]
+}
+,{"type":"table","name":"probabilitas","database":"dislipidemia","data":
+[
+{"id_probabilitas":"P1","id_kategori":"K1","probabilitas_positif":"0.315","probabilitas_negatif":"0.5"},
+{"id_probabilitas":"P10","id_kategori":"K10","probabilitas_positif":"0.577","probabilitas_negatif":"0.591"},
+{"id_probabilitas":"P11","id_kategori":"K11","probabilitas_positif":"0.462","probabilitas_negatif":"0.364"},
+{"id_probabilitas":"P12","id_kategori":"K12","probabilitas_positif":"0.538","probabilitas_negatif":"0.636"},
+{"id_probabilitas":"P13","id_kategori":"K13","probabilitas_positif":"0.185","probabilitas_negatif":"0.303"},
+{"id_probabilitas":"P14","id_kategori":"K14","probabilitas_positif":"0.815","probabilitas_negatif":"0.697"},
+{"id_probabilitas":"P15","id_kategori":"K15","probabilitas_positif":"0.562","probabilitas_negatif":"0.288"},
+{"id_probabilitas":"P16","id_kategori":"K16","probabilitas_positif":"0.438","probabilitas_negatif":"0.712"},
+{"id_probabilitas":"P17","id_kategori":"K17","probabilitas_positif":"0.492","probabilitas_negatif":"0.409"},
+{"id_probabilitas":"P18","id_kategori":"K18","probabilitas_positif":"0.508","probabilitas_negatif":"0.591"},
+{"id_probabilitas":"P19","id_kategori":"K19","probabilitas_positif":"0.423","probabilitas_negatif":"0"},
+{"id_probabilitas":"P2","id_kategori":"K2","probabilitas_positif":"0.685","probabilitas_negatif":"0.5"},
+{"id_probabilitas":"P20","id_kategori":"K20","probabilitas_positif":"0.577","probabilitas_negatif":"0.758"},
+{"id_probabilitas":"P21","id_kategori":"K21","probabilitas_positif":"0.485","probabilitas_negatif":"0.258"},
+{"id_probabilitas":"P22","id_kategori":"K22","probabilitas_positif":"0.515","probabilitas_negatif":"0.742"},
+{"id_probabilitas":"P23","id_kategori":"K23","probabilitas_positif":"0.531","probabilitas_negatif":"0.288"},
+{"id_probabilitas":"P24","id_kategori":"K24","probabilitas_positif":"0.469","probabilitas_negatif":"0.712"},
+{"id_probabilitas":"P25","id_kategori":"K25","probabilitas_positif":"0.485","probabilitas_negatif":"0.379"},
+{"id_probabilitas":"P26","id_kategori":"K26","probabilitas_positif":"0.515","probabilitas_negatif":"0.621"},
+{"id_probabilitas":"P27","id_kategori":"K27","probabilitas_positif":"0.462","probabilitas_negatif":"0.333"},
+{"id_probabilitas":"P28","id_kategori":"K28","probabilitas_positif":"0.538","probabilitas_negatif":"0.667"},
+{"id_probabilitas":"P3","id_kategori":"K3","probabilitas_positif":"0.854","probabilitas_negatif":"0.879"},
+{"id_probabilitas":"P4","id_kategori":"K4","probabilitas_positif":"0.146","probabilitas_negatif":"0.121"},
+{"id_probabilitas":"P5","id_kategori":"K5","probabilitas_positif":"0.546","probabilitas_negatif":"0.561"},
+{"id_probabilitas":"P6","id_kategori":"K6","probabilitas_positif":"0.454","probabilitas_negatif":"0.439"},
+{"id_probabilitas":"P7","id_kategori":"K7","probabilitas_positif":"0.546","probabilitas_negatif":"0.485"},
+{"id_probabilitas":"P8","id_kategori":"K8","probabilitas_positif":"0.454","probabilitas_negatif":"0.515"},
+{"id_probabilitas":"P9","id_kategori":"K9","probabilitas_positif":"0.423","probabilitas_negatif":"0.409"}
+]
+}
+]
