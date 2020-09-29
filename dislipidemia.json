@@ -69,7 +69,7 @@
 {"id_probabilitas":"P16","id_kategori":"K16","probabilitas_positif":"0.438","probabilitas_negatif":"0.712"},
 {"id_probabilitas":"P17","id_kategori":"K17","probabilitas_positif":"0.492","probabilitas_negatif":"0.409"},
 {"id_probabilitas":"P18","id_kategori":"K18","probabilitas_positif":"0.508","probabilitas_negatif":"0.591"},
-{"id_probabilitas":"P19","id_kategori":"K19","probabilitas_positif":"0.423","probabilitas_negatif":"0"},
+{"id_probabilitas":"P19","id_kategori":"K19","probabilitas_positif":"0.423","probabilitas_negatif":"0.242"},
 {"id_probabilitas":"P2","id_kategori":"K2","probabilitas_positif":"0.685","probabilitas_negatif":"0.5"},
 {"id_probabilitas":"P20","id_kategori":"K20","probabilitas_positif":"0.577","probabilitas_negatif":"0.758"},
 {"id_probabilitas":"P21","id_kategori":"K21","probabilitas_positif":"0.485","probabilitas_negatif":"0.258"},
